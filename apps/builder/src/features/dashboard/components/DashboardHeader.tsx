@@ -32,7 +32,7 @@ export const DashboardHeader = () => {
       >
         <Link href="/typebots" data-testid="typebot-logo">
           <EmojiOrImageIcon
-            boxSize="30px"
+            boxSize="40px"
             icon={workspace?.icon}
             defaultIcon={HardDriveIcon}
           />

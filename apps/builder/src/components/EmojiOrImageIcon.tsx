@@ -33,7 +33,13 @@ export const EmojiOrImageIcon = ({
           </chakra.span>
         )
       ) : (
-        defaultIcon({ boxSize })
+        <Image
+          src="/favicon-grande.png"
+          boxSize={boxSize}
+          objectFit="cover"
+          alt="default logo"
+          rounded="10%"
+        />
       )}
     </>
   )
